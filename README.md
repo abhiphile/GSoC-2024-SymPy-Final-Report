@@ -2,7 +2,7 @@ This is a report to showcase my final report during Google Summer of Code 2024 w
 
 The SymPy community has been very welcoming and supportive for me. I started contributing in SymPy and later developed interest for the control package. I applied for GSoC 2024 and got selected in SymPy for the the project `Improving and Expanding the Functionalities of the Control Module.`
 ## About Me
-I'm [Abhishek Kumar](https://github.com/abhiphile)a final-year undergraduate student pursuing a major in Electronics and Communication Engineering from National Institute of Technology (NIT) Delhi. I'm interested in physics, algorithms and computer science. I like to contribute on open source repositories and collaborate on interesting projects.
+I'm [Abhishek Kumar](https://github.com/abhiphile) a final-year undergraduate student pursuing a major in Electronics and Communication Engineering from National Institute of Technology (NIT) Delhi. I'm interested in physics, algorithms and computer science. I like to contribute on open source repositories and collaborate on interesting projects.
 # Project: Improving and Expanding the Functionalities of the Control Module \
 Student: Abhishek Kumar [abhiphile](https://github.com/abhiphile) \
 Mentor: Nikhil Maan [Sc0rpi0n101](https://github.com/Sc0rpi0n101) \
