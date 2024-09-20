@@ -3,10 +3,10 @@ This is a report to showcase my final report during Google Summer of Code 2024 w
 The SymPy community has been very welcoming and supportive for me. I started contributing in SymPy and later developed interest for the control package. I applied for GSoC 2024 and got selected in SymPy for the the project `Improving and Expanding the Functionalities of the Control Module.`
 ## About Me
 I'm [Abhishek Kumar](https://github.com/abhiphile)a final-year undergraduate student pursuing a major in Electronics and Communication Engineering from National Institute of Technology (NIT) Delhi. I'm interested in physics, algorithms and computer science. I like to contribute on open source repositories and collaborate on interesting projects.
-# Project: Improving and Expanding the Functionalities of the Control Module
-Student: Abhishek Kumar [abhiphile](https://github.com/abhiphile)
-Mentor: Nikhil Maan [Sc0rpi0n101](https://github.com/Sc0rpi0n101)
-Project Length: 350 Hours
+# Project: Improving and Expanding the Functionalities of the Control Module \
+Student: Abhishek Kumar [abhiphile](https://github.com/abhiphile) \
+Mentor: Nikhil Maan [Sc0rpi0n101](https://github.com/Sc0rpi0n101) \
+Project Length: 350 Hours \
 Proposal Link: [Improving and Expanding the Functionalities of the Control Module](https://docs.google.com/document/d/1dmm7goYEyVcVkXrpwJm84yp6BmwfKrLB9rntZDA7R8g)
 ## Project Summary
 In this project, I focused on enhancing the `Series`, `MIMOSeries`, `Parallel`, `MIMOParallel`, `Feedback`, and `MIMOFeedback` classes to support `StateSpace` interconnections. I worked on solving the state space equations using `dsolve()`. Additionally, I introduced a new `PIDController` class which can be used for various regulatory applications. I also incorporated mechanics and electrical textbook problems that can be addressed using `StateSpace`. Finally, I implemented new plotting features, including the Nyquist plot (`nyquist_plot`) and Nichols plot (`Nichols Plot`), utilizing SymPy's own `plot_parametric` function.
