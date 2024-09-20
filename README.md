@@ -13,18 +13,18 @@ In this project, I focused on enhancing the `Series`, `MIMOSeries`, `Parallel`, 
 ## Related Work
 Here’s a summary of my work on SymPy as part of Google Summer of Code (GSoC 24):
 ### Merged Pull Requests
-1. [#26647](https://github.com/sympy/sympy/pull/26647) In this PR I've worked on refactoring the `Series` and `MIMOSeries` classes to support `StateSpace` interconnections. Previously these connections were only possible with `TransferFunctions`, `doit()` for `StateSpace` interconnections behave differently, for these interconnections `doit()` will return the resulting `StateSpace` object.
-2. [#26718](https://github.com/sympy/sympy/pull/26718)In this I've # Added support of using `StateSpace` with `Parallel` and `MIMOParallel`. It is similar to the PR described above.
-3. [#26863](https://github.com/sympy/sympy/pull/26863)This PR was related to make `Feedback` and `MIMOFeedback` compatible with `StateSpace`.
-4. [#26685](https://github.com/sympy/sympy/pull/26685) & [26736](https://github.com/sympy/sympy/pull/26736)Implemented a method to find out the output vector using the `dsolve` function in `StateSpace` object. The first PR was related to adding functions like `state_vector` and `output_vector`. In the second PR I've removed the `state_vector` method and renamed the `output_vector` to `dsolve`. This was suggested by Jason K. Moore because it matches with existing functionality of SymPy.
-5. [#26768](https://github.com/sympy/sympy/pull/26758)Added test to check the functionality of `StateSpace` using symbolic matrices.
-6. [#26781](https://github.com/sympy/sympy/pull/26781)`PIDController` class has been added to control. This class can be useful for various control applications which require regulation. Since it's parent class is `TransferFunction` it supports all the functionality of `TransferFunctions`.
-7. [#26978](https://github.com/sympy/sympy/pull/26978) This PR add two problems related to state space in `electrical_problems.rst` file. These examples can help users to understand how SymPy's control module can be helpful in solving problems related to physics using `StateSpace` and `Sympy`.
-8. [#270009](https://github.com/sympy/sympy/pull/27009)Added a simple spring mass damper problem and a rotational system problem to control tutorials.
+1. ( [#26647](https://github.com/sympy/sympy/pull/26647) ) In this PR I've worked on refactoring the `Series` and `MIMOSeries` classes to support `StateSpace` interconnections. Previously these connections were only possible with `TransferFunctions`, `doit()` for `StateSpace` interconnections behave differently, for these interconnections `doit()` will return the resulting `StateSpace` object.
+2. ( [#26718](https://github.com/sympy/sympy/pull/26718) ) In this I've # Added support of using `StateSpace` with `Parallel` and `MIMOParallel`. It is similar to the PR described above.
+3. ( [#26863](https://github.com/sympy/sympy/pull/26863) ) This PR was related to make `Feedback` and `MIMOFeedback` compatible with `StateSpace`.
+4. ( [#26685](https://github.com/sympy/sympy/pull/26685) ) & ( [26736](https://github.com/sympy/sympy/pull/26736) ) Implemented a method to find out the output vector using the `dsolve` function in `StateSpace` object. The first PR was related to adding functions like `state_vector` and `output_vector`. In the second PR I've removed the `state_vector` method and renamed the `output_vector` to `dsolve`. This was suggested by Jason K. Moore because it matches with existing functionality of SymPy.
+5. ( [#26768](https://github.com/sympy/sympy/pull/26758) ) Added test to check the functionality of `StateSpace` using symbolic matrices.
+6. ( [#26781](https://github.com/sympy/sympy/pull/26781) )`PIDController` class has been added to control. This class can be useful for various control applications which require regulation. Since it's parent class is `TransferFunction` it supports all the functionality of `TransferFunctions`.
+7. ( [#26978](https://github.com/sympy/sympy/pull/26978) ) This PR add two problems related to state space in `electrical_problems.rst` file. These examples can help users to understand how SymPy's control module can be helpful in solving problems related to physics using `StateSpace` and `Sympy`.
+8. ( [#270009](https://github.com/sympy/sympy/pull/27009) ) Added a simple spring mass damper problem and a rotational system problem to control tutorials.
 ### Open Pull Requests:
-1. [#27052](https://github.com/sympy/sympy/pull/27052)Implemented Nyquist Plot, this plot uses SymPy's own `plot_parametric` method to plot the output.
-2. [#27067](https://github.com/sympy/sympy/pull/27067)# Added Nichols plot to control plots.
-3. [#26836](https://github.com/sympy/sympy/pull/26836).Added a method to calculate bandwidth of a `TransferFunction`.
+1. ( [#27052](https://github.com/sympy/sympy/pull/27052) ) Implemented Nyquist Plot, this plot uses SymPy's own `plot_parametric` method to plot the output.
+2. ( [#27067](https://github.com/sympy/sympy/pull/27067) ) Added Nichols plot to control plots.
+3. ( [#26836](https://github.com/sympy/sympy/pull/26836) ) Added a method to calculate bandwidth of a `TransferFunction`.
 
 ## Future Work
 * Adding a Discrete time model that includes **Discrete TransferFunction** and **Discrete StateSpace** model.
