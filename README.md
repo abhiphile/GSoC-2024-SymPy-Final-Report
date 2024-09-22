@@ -28,7 +28,11 @@ Here’s a summary of my work on SymPy as part of Google Summer of Code (GSoC 24
 3. ( [#26836](https://github.com/sympy/sympy/pull/26836) ) Added a method to calculate bandwidth of a `TransferFunction`.
 
 ## Future Work
-* Adding a Discrete time model that includes **Discrete TransferFunction** and **Discrete StateSpace** model.
+* Adding a Discrete time model that includes **Discrete TransferFunction** and **Discrete StateSpace** model. A discrete control system should have the following components.
+  - Discrete Transfer Function which lets use make the TransferFunction like `G = tf([numerator coefficients], [denominator coefficients], Ts);`.
+  - Discrete StateSpace model which can be made by sampling time `Ts`. `sys = ss(A, B, C, D, Ts);`.
+  - Controller Discretization by functions like c2d.
+* Improving existing plots to use SymPy's own symbolic method rather than using other libraries for plotting.
 ## Acknowledgements
 I am highly grateful to my mentor, [Nikhil Maan](https://github.com/Sc0rpi0n101) for always being there with me whenever I was struck and needed help. I would also like to thank [Anurag Bhat](https://github.com/faze-geek) for reviewing my PR. I would like to thank Jason Moore ([@moorepants](https://github.com/moorepants)), Oscar Benjamin([@oscarbenjamin](https://github.com/oscarbenjamin)), Christopher Smith([@smichr](https://github.com/smichr)), Aaron Meurer([@asmeurer](https://github.com/asmeurer)), S.Y. Lee ([@sylee957](https://github.com/sylee957)), and other members and contributors in the community for their continuous support, allowing me to contribute to Sympy and learn a lot in the process.
 ## References
