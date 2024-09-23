@@ -8,7 +8,8 @@ I'm [Abhishek Kumar](https://github.com/abhiphile) a final-year undergraduate st
 Student: Abhishek Kumar [abhiphile](https://github.com/abhiphile) \
 Mentor: Nikhil Maan [Sc0rpi0n101](https://github.com/Sc0rpi0n101) \
 Project Length: 350 Hours \
-Proposal Link: [Improving and Expanding the Functionalities of the Control Module](https://docs.google.com/document/d/1dmm7goYEyVcVkXrpwJm84yp6BmwfKrLB9rntZDA7R8g)
+Proposal Link: [Improving and Expanding the Functionalities of the Control Module](https://docs.google.com/document/d/1dmm7goYEyVcVkXrpwJm84yp6BmwfKrLB9rntZDA7R8g)\
+GSoC Blog : [My Journey with GSoC 2024](https://abhiphile.github.io/gsoc24-blog/)
 ## Project Summary
 In this project, I focused on enhancing the `Series`, `MIMOSeries`, `Parallel`, `MIMOParallel`, `Feedback`, and `MIMOFeedback` classes to support `StateSpace` interconnections. I worked on solving the state space equations using `dsolve()`. Additionally, I introduced a new `PIDController` class which can be used for various regulatory applications. I also incorporated mechanics and electrical textbook problems that can be addressed using `StateSpace`. Finally, I implemented new plotting features, including the Nyquist plot (`nyquist_plot`) and Nichols plot (`Nichols Plot`), utilizing SymPy's own `plot_parametric` function.
 ## Related Work
