@@ -23,10 +23,10 @@ Here’s a summary of my work on SymPy as part of Google Summer of Code (GSoC 24
 6. ( [#26781](https://github.com/sympy/sympy/pull/26781) )`PIDController` class has been added to control. This class can be useful for various control applications which require regulation. Since it's parent class is `TransferFunction` it supports all the functionality of `TransferFunctions`.
 7. ( [#26978](https://github.com/sympy/sympy/pull/26978) ) This PR add two problems related to state space in `electrical_problems.rst` file. These examples can help users to understand how SymPy's control module can be helpful in solving problems related to physics using `StateSpace` and `Sympy`.
 8. ( [#270009](https://github.com/sympy/sympy/pull/27009) ) Added a simple spring mass damper problem and a rotational system problem to control tutorials.
+9. ( [#27052](https://github.com/sympy/sympy/pull/27052) ) Implemented Nyquist Plot, this plot uses SymPy's own `plot_parametric` method to plot the output.
 ### Open Pull Requests:
-1. ( [#27052](https://github.com/sympy/sympy/pull/27052) ) Implemented Nyquist Plot, this plot uses SymPy's own `plot_parametric` method to plot the output.
-2. ( [#27067](https://github.com/sympy/sympy/pull/27067) ) Added Nichols plot to control plots.
-3. ( [#26836](https://github.com/sympy/sympy/pull/26836) ) Added a method to calculate bandwidth of a `TransferFunction`.
+1. ( [#27067](https://github.com/sympy/sympy/pull/27067) ) Added Nichols plot to control plots.
+2. ( [#26836](https://github.com/sympy/sympy/pull/26836) ) Added a method to calculate bandwidth of a `TransferFunction`.
 
 ## Future Work
 * Adding a Discrete time model that includes **Discrete TransferFunction** and **Discrete StateSpace** model. A discrete control system should have the following components.
